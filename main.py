@@ -2,7 +2,6 @@ def main():
     book_path = "./books/frankenstein.txt"
     text = get_book_text(book_path)
     num_words = count_words(text)
-    print(f"{num_words} number of words in the document")
     letters_dict = count_letters(text)
     sorted_list = sorted_character_list(letters_dict)
     sorted_dict = dict_sort(sorted_list, letters_dict)
